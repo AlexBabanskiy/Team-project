@@ -1,0 +1,40 @@
+@media screen and (min-width: 768px) {
+	.container {
+		width: 768px;
+		margin-left: auto;
+		margin-right: auto;
+		padding-left: 40px;
+		padding-right: 40px;
+	}
+	.hero {
+		background-image: url(./images/tablet/tablet-hero.jpg);
+		border-radius: 30px;
+		background-repeat: no-repeat;
+		background-size: cover;
+		margin: auto;
+	}
+
+	@media (min-device-pixel-ratio: 2),
+		(-webkit-min-device-pixel-ratio: 2),
+		(min-resolution: 192dpi),
+		(min-resolution: 2dppx) {
+		.hero {
+			background-image: url(./images/tablet/tablet-hero@2x.jpg);
+		}
+	}
+	.hero-title {
+		width: 484px;
+		padding-top: 671px;
+		font-size: 28px;
+	}
+	.hero-content {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		padding-bottom: 40px;
+	}
+	.hero-nav {
+		padding: 0;
+		margin: 0;
+	}
+}
